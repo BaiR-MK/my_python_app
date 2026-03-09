@@ -1,5 +1,4 @@
-# utils.py
-from colorama import Fore, Style  # Добавили импорт
+from colorama import Fore, Style
 
 def calculate_sum(a, b):
     return a + b
@@ -7,5 +6,8 @@ def calculate_sum(a, b):
 def calculate_difference(a, b):
     return a - b
 
+def calculate_product(a, b):
+    return a * b
+
 def format_message(msg):
-    return f"{Fore.GREEN}{msg}{Style.RESET_ALL}"  # Новая функция
+    return f"{Fore.GREEN}{msg}{Style.RESET_ALL}"

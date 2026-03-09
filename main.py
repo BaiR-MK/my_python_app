@@ -1,4 +1,3 @@
-# main.py
 import config
 from utils import calculate_sum
 from colorama import init, Fore, Style

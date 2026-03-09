@@ -1,10 +1,23 @@
 # Virtual Environment
 venv/
+env/
+ENV/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.Python
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
